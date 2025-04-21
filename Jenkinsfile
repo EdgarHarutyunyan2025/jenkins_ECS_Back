@@ -4,8 +4,6 @@ pipeline {
     environment {
         AWS_REGION = 'eu-central-1'
         IMAGE_TAG = "backend-pr-${env.BUILD_NUMBER}"
-	TELEGRAM_BOT_TOKEN = "7072041087:AAFEJ4XOyur7rBUJopRGqiBFGUAKQBBvNBo"
-	TELEGRAM_CHAT_ID   = 6912904630 
     }
 
     stages {
